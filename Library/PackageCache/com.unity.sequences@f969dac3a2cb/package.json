@@ -1,0 +1,36 @@
+{
+  "displayName": "Sequences",
+  "name": "com.unity.sequences",
+  "unity": "2022.1",
+  "version": "2.1.3",
+  "dependencies": {
+    "com.unity.timeline": "1.6.3",
+    "com.unity.recorder": "2.5.5",
+    "com.unity.settings-manager": "1.0.3",
+    "com.unity.ugui": "1.0.0"
+  },
+  "description": "Efficiently create movies, game cinematics or any other linear content.\nOrganize your project's editorial structure and your creative content, assemble the elements for easy authoring and collaboration, and try out new ideas in a non-destructive way.",
+  "relatedPackages": {
+    "com.unity.sequences.tests": "2.1.3"
+  },
+  "_upm": {
+    "changelog": "### Changed\n* Prepared the package for end of support as of Unity 6.1."
+  },
+  "upmCi": {
+    "footprint": "99ee243b8436fe2e4180a9cb9c53de07e56f1cb5"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.sequences@2.1/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.sequences.git",
+    "type": "git",
+    "revision": "0329fc041dc7e94b45ea9dcb14413c6fc8ccc458"
+  },
+  "samples": [
+    {
+      "displayName": "Scene Management",
+      "description": "This sample contains a Scene with a Master Sequence that uses the Scene Management features. It is made of multiple sequences, each with their own Scene Activation Track to control the activation of different Scenes for set and lighting.",
+      "path": "Samples~/SceneManagement"
+    }
+  ],
+  "_fingerprint": "f969dac3a2cb5363dec197f50b6b8f930dda02c4"
+}

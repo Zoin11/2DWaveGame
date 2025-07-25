@@ -1,0 +1,407 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.47f1 (2ad1ed33fd3b) revision 2806253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\Unity Hub\6000.0.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/2DWaveGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55367
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Unity/Projects/2DWaveGame
+D:/Unity/Projects/2DWaveGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22612]  Target information:
+
+Player connection [22612]  * "[IP] 192.168.1.178 [Port] 0 [Flags] 2 [Guid] 3067468827 [EditorId] 3067468827 [Version] 1048832 [Id] WindowsEditor(7,AntonsPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22612]  * "[IP] 26.119.176.81 [Port] 0 [Flags] 2 [Guid] 3067468827 [EditorId] 3067468827 [Version] 1048832 [Id] WindowsEditor(7,AntonsPc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22612] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22612] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
+[Subsystems] Discovering subsystems at path D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/2DWaveGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHub/Unity Hub/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001694 seconds.
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 639ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (124ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.699 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.02 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.746 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (611ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.39 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7578 unused Assets / (8.3 MB). Loaded Objects now: 8215.
+Memory consumption went from 183.0 MB to 174.7 MB.
+Total: 18.006100 ms (FindLiveObjects: 1.391400 ms CreateObjectMapping: 0.970400 ms MarkObjects: 9.492300 ms  DeleteObjects: 6.148100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 88814.911236 seconds.
+  path: Assets/SPUM/Resources
+  artifactKey: Guid(2b8240fefcd33436c897e62a0e06cbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources using Guid(2b8240fefcd33436c897e62a0e06cbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f57458104284a19e84055136f37c16') in 0.0098549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SPUM
+  artifactKey: Guid(91470eaefdef414459c47c0291b7535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM using Guid(91470eaefdef414459c47c0291b7535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c9b4c9aa1de83f1941c5d655bf951b4') in 0.0005835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150084 seconds.
+  path: Assets/SPUM/Resources/Addons
+  artifactKey: Guid(a47aa0e67661b41628ba9bc03b99712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons using Guid(a47aa0e67661b41628ba9bc03b99712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '282d5ea8036f0742ae93d87ea5cfec55') in 0.0004433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.626683 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack
+  artifactKey: Guid(642b409f769264e758b6c84df426a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack using Guid(642b409f769264e758b6c84df426a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00aad983e8817638ff8e3f1971e654b4') in 0.0004108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785805 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab
+  artifactKey: Guid(1f2485c75380f4ad39033689265e0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab using Guid(1f2485c75380f4ad39033689265e0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '357d96a33f77c160d2ef9b9da1f304df') in 0.0007861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027766 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf
+  artifactKey: Guid(72ffceb260487486a8548cdea8e84c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf using Guid(72ffceb260487486a8548cdea8e84c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '780465ab2d95fe3f850c374b809203b1') in 0.0004099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037053 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911215638048.prefab
+  artifactKey: Guid(8e5c0f9a2756b4bd68bea643e5f2e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911215638048.prefab using Guid(8e5c0f9a2756b4bd68bea643e5f2e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f48b7ee374d9b616b3c9d962285a7061') in 0.5528196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 273
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222547665.prefab
+  artifactKey: Guid(ddbf09db7bc774cabb5d46e3a3a70730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222547665.prefab using Guid(ddbf09db7bc774cabb5d46e3a3a70730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5b49813e7dc553e3a3113364bbdf85d') in 0.0497277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911215638308.prefab
+  artifactKey: Guid(65356e3bf37bf4183afae7a9b37a062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911215638308.prefab using Guid(65356e3bf37bf4183afae7a9b37a062a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0679ac3622006515e15df70160a0aaf6') in 0.0525237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222346858.prefab
+  artifactKey: Guid(e03c0b26bc7ff41e89f4709a00b89df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222346858.prefab using Guid(e03c0b26bc7ff41e89f4709a00b89df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64d2091520c73cf6cca636c287fe3058') in 0.0457781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222451694.prefab
+  artifactKey: Guid(b1d1b587ef04c4b78accd9412b85b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Elf/SPUM_20240911222451694.prefab using Guid(b1d1b587ef04c4b78accd9412b85b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '051c30fa65a0a5729ffb435c12520f80') in 0.0589847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.427385 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638474.prefab
+  artifactKey: Guid(672092d6fae854c9da73ae8124fb85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638474.prefab using Guid(672092d6fae854c9da73ae8124fb85bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b7ab056eae6a864662acc0b13f2dc5') in 0.0523739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638731.prefab
+  artifactKey: Guid(dc4d03e9834464d82a1dec0da2b8162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638731.prefab using Guid(dc4d03e9834464d82a1dec0da2b8162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49d4f39b0c20b10941ddee8cc820034') in 0.0478764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638897.prefab
+  artifactKey: Guid(74081d2c7552d4c17953e46326368c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638897.prefab using Guid(74081d2c7552d4c17953e46326368c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15498829b2c9d092379d193d4b2e1b78') in 0.0566054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 274
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638981.prefab
+  artifactKey: Guid(d4beff68b488448d0813100000431371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638981.prefab using Guid(d4beff68b488448d0813100000431371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '962ded55d9f3e1794c581a47cafd18fa') in 0.0550987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 274
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639234.prefab
+  artifactKey: Guid(a77f2796fd776459c9b84d0b63c90e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639234.prefab using Guid(a77f2796fd776459c9b84d0b63c90e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4e4a340145284be2d6b52bd26e997f') in 0.0497074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638643.prefab
+  artifactKey: Guid(dba443a66548243fe806dd91db6511af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215638643.prefab using Guid(dba443a66548243fe806dd91db6511af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ced23532c8335b63fc7ad55cba611e39') in 0.0452629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 274
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639316.prefab
+  artifactKey: Guid(0f2e860a0377f4a9f98fa39bbafb5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639316.prefab using Guid(0f2e860a0377f4a9f98fa39bbafb5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b55defa4b4fb8289f207c0b1069e06f') in 0.0537854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639748.prefab
+  artifactKey: Guid(076e70130deb941259c717e22f40be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Human/SPUM_20240911215639748.prefab using Guid(076e70130deb941259c717e22f40be8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbf9e3a6fbc76d951b401c935283ad6f') in 0.0516421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.567432 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911215639920.prefab
+  artifactKey: Guid(5c168e864c70b4127ab2101a6d8f2696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911215639920.prefab using Guid(5c168e864c70b4127ab2101a6d8f2696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4205a514caf2d9efc853056ba4fd05e') in 0.0504342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 267
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911222954869.prefab
+  artifactKey: Guid(c20797b5f7794454991691cd133cba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911222954869.prefab using Guid(c20797b5f7794454991691cd133cba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9d6097d2a064f36600eb182d76a813c') in 0.0545239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911215640091.prefab
+  artifactKey: Guid(f7b1e2da167594a0e97c2ce647a3d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Skelton/SPUM_20240911215640091.prefab using Guid(f7b1e2da167594a0e97c2ce647a3d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a45347911f6f4b0d0f38b9aad8b39eef') in 0.0547233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 270
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.431256 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215637878.prefab
+  artifactKey: Guid(a4696a02c7fa04918a30ca6051a8901e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215637878.prefab using Guid(a4696a02c7fa04918a30ca6051a8901e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fb23fb9804b11f13e3250c0930732d') in 0.0501739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215640838.prefab
+  artifactKey: Guid(cc45723031f2648c0ba48e0e76684633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215640838.prefab using Guid(cc45723031f2648c0ba48e0e76684633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4172e563c3c7254bacb5160c68eb6b4') in 0.0490756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 276
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215640967.prefab
+  artifactKey: Guid(097f8c9082bd04da1b89678f92e3e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Resources/Addons/BasicPack/2_Prefab/Devil/SPUM_20240911215640967.prefab using Guid(097f8c9082bd04da1b89678f92e3e995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de89c8fc6554e4f2bb6b49238ae97486') in 0.0490028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 267
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
